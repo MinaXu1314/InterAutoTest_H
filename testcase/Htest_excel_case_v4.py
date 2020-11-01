@@ -86,7 +86,7 @@ class TestExcel:
 # TestExcel().test_run()
 
 if __name__ == '__main__':
-    pytest.main(["-s", "test_excel_case_v4.py"])
+    pytest.main(["-s", "Htest_excel_case_v4.py"])
     # 固定headers请求
     # 1.判断headers是否存在，存在：json转义  不存在：无需作任何操作
     # 2.增加Headers
