@@ -1,0 +1,15 @@
+BASE:
+ # log等级
+ log_level: "debug"
+ # 扩展名
+ log_extension: ".log"
+ test:
+  url: "http://211.103.136.242:8064"
+  case_file: "testdata.xlsx"
+  case_sheet: "美多商城接口测试"
+
+email:
+ smtpserver: "smtp.exmail.qq.com"
+ username: "xujianfeng@zhfi.cn"
+ password: "HUhuimin_0624"
+ receiver: "303139496@qq.com"
