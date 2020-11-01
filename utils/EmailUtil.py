@@ -39,7 +39,7 @@ class SendEmail:
         # 5.将内容附加到邮件主体中
             msg.attach(att)
         # 登陆邮件服务器
-        self.smtp = smtplib.SMTP(self.smtp_addr,port=25)
+        self.smtp = smtplib.SMTP_SSL(self.smtp_addr,port=465)
         self.smtp.login(self.username, self.password)
         # 发送邮件
         self.smtp.sendmail(self.username, self.recv, msg.as_string())
